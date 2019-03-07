@@ -1,0 +1,375 @@
+.HeaderBanner{
+    background-color: #FCB4FE;
+}
+.HeaderImg{
+    margin: 0 auto;
+    width: 1190px;
+    position: relative;
+}
+.HeaderImg span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.headerUl-Container{
+    height: 30PX;
+    background-color: #E3E4E5;
+    border-bottom: 1px solid #DDDDDD;
+}
+.headerUl{
+    margin: 0 auto;
+    width: 1190px;
+    position: relative;
+    
+}
+
+
+.JdGif{
+    height: 171px;
+    width: 190px;
+    position: absolute;
+    /* top:0; */
+    background-color: #FFFFFF;
+    border-bottom:1px solid #DDDDDD;
+    z-index: 100;
+}
+
+.headerOrder{
+
+    list-style: none;
+
+    /* overflow: hidden;  */
+    position: absolute;
+    right: 0;
+    top: 0;
+  
+}
+
+
+.headerOrder li{
+    float: left;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    /* padding-right:7.5px; */
+    margin-right: 10px;
+    color: #999999;
+ }
+ .positionDiv{
+     width: 56px;
+     height: 30px;
+    text-align: center;
+    line-height: 30px;
+    left: 200px;
+    top: 0;
+
+    color: #999999;
+    position: absolute;
+ }
+ .positionDiv:hover{
+   border-top: 1px solid #DDDDDD;
+   border-left: 1px solid #DDDDDD;
+   border-right: 1px solid #DDDDDD;
+   background: #ffffff;
+
+}
+
+.positionDiv:hover  .city{
+    display: block;
+ 
+ }
+
+.headerUl a{
+    
+    text-decoration: none;
+    color: #999999;
+}
+.headerOrder a{
+    margin-right: 10px;
+}
+.headerUl :hover{
+    color:red;
+}
+
+.city{
+    background: #ffffff;
+    height: 255px;
+    width: 322px;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    position: absolute;
+    left: -1px;
+    top: 30px;
+    display: none;
+    z-index: 100;
+}
+.city ul{
+    height: 225px;
+    width: 300px;
+    padding:10px 0px 10px 15px;
+
+}
+.city li{
+    float: left;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #999999;
+    margin-right: 15px;
+
+}
+.city a{
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+   
+    /* text-align: center; */
+    line-height: 24px;
+
+}
+
+.city a:hover{
+    background-color: #DDDDDD;
+
+}
+
+.xialaDiv{
+    padding: 0 3.5px;
+    position: relative;
+    height: 30PX;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+
+}
+
+.xialaDiv:hover{
+    
+    background: #ffffff;
+  
+
+}
+.xialaDiv:hover .myJd{
+
+    display: block;
+}
+
+ .myJd{
+
+    height: 163px;
+    width: 282px; 
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD; 
+    position: absolute;
+    left: -1px;
+    top: 30px;
+    background: #ffffff;
+    display:none;
+    z-index: 100;
+    /* padding: 10px  20px 10px 10px; */
+}
+
+.headerOrder .myJd ul{
+   margin-top: 10PX;
+   margin-bottom: 10PX;
+ } 
+.headerOrder .myJd li{
+   margin:0 60PX 20PX 10PX; 
+   height: 18px;
+   margin-bottom: 8PX;
+   float: left;
+
+} 
+.headerOrder .myjd a{
+    width: 60px;
+    display: inline-block;
+ 
+ } 
+ .myJdTop{
+    border-bottom:1px solid #DDDDDD;
+    padding-bottom: 8PX;
+
+ }
+
+
+.searchContainner{
+  background-color:#F0F3EF;
+   height: 140px;
+ 
+}
+
+.SearcheContainnerCenter{
+
+    margin: 0 auto;
+    width: 1190px;
+    position: relative;
+}
+
+.girlDay{
+
+    position: absolute;
+}
+.search{
+
+    /* height: 60px; */
+    /* overflow: hidden; 解决嵌套div垂直边距外部塌陷问题 */
+    border-top: 1px solid #F0F3EF;
+}
+
+ .inputDiv{
+    
+    width: 550px;
+    height: 35px;
+    margin: 30px auto 0;
+    line-height: 35px;
+    position: relative;
+ 
+}
+
+.inputDiv .input{
+    display:inline-block;
+    width: 500px;
+    height: 35px;
+  
+    outline: none; /*取消选中时外边框的颜色*/
+}
+
+.inputDiv .btnS{
+    width: 50px;
+    height: 35px;
+    display:inline-block;
+    background-color: red;
+    text-align: center;
+  border: none;
+    margin-left: 0;
+}
+
+.myCayDiv{
+    width: 188px;
+    height: 34px;
+    position: absolute;
+    top:0px;
+    right: -218px;
+    /* border: 1px solid #DDDDDD; */
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD; 
+    border-top: 1px solid #DDDDDD; 
+    background-color: #fff;
+    text-align: center;
+
+}
+ .Mycar{
+     /* display: inline-block;
+    width: 188px;
+    height: 35px; */
+    /* outline: none; */
+    
+    color:red;
+    font-size: 12px;
+   
+
+}
+
+.myCayDiv:hover{
+
+    border-bottom: none;
+
+}
+.myCayDiv:hover .CarDetail {
+
+    display: block;
+} 
+.CarDetail{
+ 
+    width: 310px;
+    height: 71px;
+    position: absolute;
+    right: -1px;
+    top: 34px;
+    background: url(../images/car.png)  no-repeat  left 10px  center ;
+    z-index: 100;
+    background-color: #ffffff;
+    border: 1px solid #DDDDDD;
+    /* border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD; */
+    display: none;
+    text-align: center;
+    color: #999999;
+    font-size: 12px;
+    line-height: 71px;
+    
+}
+
+.salesProduct{
+    width: 550px;
+    height: 35px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.salesProduct ul{
+    width: 550px;
+    height: 35px;
+    margin: 10px 0;
+
+}
+.salesProduct li{
+    float: left;
+    margin-right: 6px;
+    font-size: 12px;
+    margin-left: 6px;
+
+}
+.salesProduct  a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.salesProduct  a:hover{
+    
+    color:red;
+}
+.jdProDiv{
+
+    width: 720px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.jdPro li{
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.jdPro  a{
+    text-decoration: none;
+    color:#333333;
+    font-size: 14px;
+}
+
+
+.jdPro  a:hover{
+    
+    color:red;
+
+}
+
+
+.jdPro .fengexian{
+
+    color:#999999;
+}
+
+.girlDay{
+
+    position: absolute;
+    right: -200px;
+    top:-18px;
+}
+
+

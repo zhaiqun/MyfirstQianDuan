@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.w{
+
+    width: 1190px;
+    margin: auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.red{
+    color: red!important;
+}
+li{
+
+    list-style: none;
+}
+body{
+    overflow: hidden;
+}
+.clearfix::after{
+
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+
+    *zoom:1;    /*  ie67 */
+   }
