@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.body{
+    overflow: scroll;
+    height: 100%;
+}
 
 .w{
 
@@ -21,9 +25,7 @@ li{
 
     list-style: none;
 }
-body{
-    overflow: hidden;
-}
+
 .clearfix::after{
 
     display: block;
@@ -31,6 +33,14 @@ body{
     height: 0;
     clear: both;
     visibility: hidden;
+}
+.w{
+
+    width: 1190px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
 }
 .clearfix{
 
